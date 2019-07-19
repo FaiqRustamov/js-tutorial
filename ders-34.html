@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background: red;
+            text-align: center;
+        }
+    </style>
+    <div id="div1">
+        Rustamov
+    </div>
+    <img id="sekil" src="images/download.jpeg" width="400px" height="400px">
+
+<script>
+var div=document.getElementById("div1");
+div.onclick=function(){
+    this.innerHTML="Faiq";
+}
+var sekil=document.getElementById("sekil");
+sekil.onmouseover=function(){
+    this.src="images/download.jpeg";
+}
+
+sekil.onmouseout=function(){
+    this.src="images/ataturk02.jpg";
+}
+</script>
+
+
+
+</body>
+</html>

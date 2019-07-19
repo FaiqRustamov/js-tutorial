@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Tutorial</title>
+</head>
+<body>
+    <script>
+        function tikla(){
+            var elementler=document.getElementsByClassName("class1");
+            var x=0;
+            //window.alert(element.length);
+ 
+            for(; x<elementler.length;x++){
+                elementler[x].style.backgroundColor="green";
+            }
+
+        }
+    </script>
+    <p class="class1">Reng deyisdirme</p>
+    <p class="class1">Reng deyisdirme</p>
+    <p >Reng deyisdirme</p>
+    <p class="class1">Reng deyisdirme</p>
+    <p >Reng deyisdirme</p>
+    <p >Reng deyisdirme</p>
+    <button onclick="tikla()">Click</button>
+
+
+</body>
+</html>

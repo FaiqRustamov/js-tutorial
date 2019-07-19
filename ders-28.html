@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+<script>
+    function tikla(){
+ var deger=document.form1.username.value;
+
+ if (deger==""){
+     window.alert("lutfen bir sey qeyd edin")
+ }
+ else{
+
+    window.alert(deger);
+ }
+}
+    </script>
+    <body >
+
+        <form name="form1" method="post" action="gonder.php">
+            Istifadeci adi:<input type="text" name="username" /><br>
+            <button onclick="tikla()">click</button>
+
+
+
+        </form>
+
+
+ </body>
+</html> 

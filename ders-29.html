@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+<script>
+ function control (){
+     
+
+var x=document.getElementById("sayi");
+if(x.checkValidity()==false){
+
+    window.alert(x.validationMessage);
+}
+else{
+    window.alert("input kecerlidir")
+}
+
+ }
+    </script>
+    <body >
+<input type="number" id="sayi" min="50" max="100" required/>
+<button onclick="control()">Control</button>
+       
+
+
+ </body>
+</html> 
